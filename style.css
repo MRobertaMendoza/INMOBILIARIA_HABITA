@@ -1,0 +1,91 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+body{
+    margin: 0;
+    margin-bottom: 40px;
+}
+header{
+    position: relative;
+    text-align: center;
+    height: 100px;
+    color: rgb(255, 255, 255)
+}
+#logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 7px;
+}
+div#barSup{
+    
+    height: 80px;
+    background-color: rgb(167, 168, 168);
+    border-radius: 6px;
+}
+#botonBuscar{
+    background-color: rgb(32, 32, 32);
+    color: beige;
+}
+section{
+    min-height: 70vh;
+
+}
+dialog#centro{
+    position:fixed;
+}
+aside{
+    background-color: rgb(167, 168, 168);
+    text-align: center;
+}
+article{
+    background-color: rgb(244, 248, 255);
+    text-align: center;
+    height: 400px;
+}
+footer{
+    background-color: rgb(197, 189, 189);
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    color: white;
+    bottom: 0%;
+
+}
+
+#image1{
+    
+    position: relative;
+    width: 700px;
+    height: 500px;
+}
+#descripcionCasa{
+    background-color: rgb(197, 189, 189);
+    position: absolute;
+    text-align: center;
+    
+
+
+}
+#contImgSlider{
+    position: relative;
+}
+#descripCasa{
+    border-radius: 4px;
+    padding: 8px;
+    padding-right: 20px;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    
+}
+#contImag{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+

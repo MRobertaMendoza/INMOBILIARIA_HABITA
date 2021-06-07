@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi pagina</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" id="barSup"><img src="habitar.jpg" alt="" id="logo">
+              <a class="navbar-brand" href="index.html"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cargar
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="propietario.html">Ingresar Propietario</a></li>
+                      <li><a class="dropdown-item" href="inmueble.html">Ingresar inmueble</a></li>
+                       <li><a class="dropdown-item" href="#">Ingresar inquilino</a></li>
+                       <li><hr class="dropdown-divider"></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success-primary" type="submit" id="botonBuscar">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="main container">
+            
+        <article class="col-xs-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" id="contImgSlider">
+                  <div class="carousel-item active" id="contImag">   
+                      <img src="casa1.jpg" class="d-block w-100" id="image1" alt="...">
+                      <div id="descripCasa"><h3>Clasica</h3>
+                        <li>Comoda</li>
+                        <li>Segura</li>
+                        <li>Bien equipada</li>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="casa2.jpg" class="d-block w-100" id="image1" alt="...">
+                    <div id="descripCasa"><h3>Moderna</h3>
+                      <li>Elegante</li>
+                      <li>Acogedora</li>
+                      <li>Muy bien equipada</li>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="casa3.jpg" class="d-block w-100" id="image1" alt="...">
+                    <div id="descripCasa"><h3>Rustica</h3>
+                      <li>Unica</li>
+                      <li>Vanguardista</li>
+                      <li>Ideal</li>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                
+        </article>
+       
+     </section>
+
+    <footer class="container">
+        <div class="main row">
+            <aside class="col-md-12"><h6>inmoviliariahabitar@habitar.com</h6></aside>
+            
+        </div>
+    </footer>
+   
+
+
+
+
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
