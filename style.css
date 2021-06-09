@@ -88,4 +88,6 @@ footer{
     display: inline-block;
     text-align: center;
 }
-
+#formularioDeLogueo{
+    text-align: left;
+}

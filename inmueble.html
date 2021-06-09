@@ -30,7 +30,7 @@
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="propietario.html">Ingresar Propietario</a></li>
                     <li><a class="dropdown-item" href="inmueble.html">Ingresar inmueble</a></li>
-                    <li><a class="dropdown-item" href="#">Ingresar inquilino</a></li>
+                    <li><a class="dropdown-item" href="inquilino.html">Ingresar inquilino</a></li>
                     <li><hr class="dropdown-divider"></li>
                   
                   </ul>
@@ -47,39 +47,62 @@
           </div>
       </nav>
   </header>
-    <section class="main container">
+  <section class="main">            
+    <article class="main row">
+      <div><h3><u>Ingresar los datos del inmueble</u></h3></div>
+        <form class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="formularioDeLogueo">
+          <label for="nombre">Nombre y apellido del <b>propietario</b> del inmueble</label>
+            <div class="input-group mb-3">                    
+                <input type="text" class="form-control" placeholder="Nombre del propietario" aria-label="Username" id="inputForm">
+                <input type="text" class="form-control" placeholder="Apellido del propietario" aria-label="Server" id="inputForm">
+              </div>
+              <div class="form-group">
+                <label for="calle"><b>Padron catastral</b></label>
+                <input type="text" class="form-control" id="calle" aria-describedby="calle" placeholder="Ingrese solo numeros sin puntos">
+              </div>
+              <div class="form-group">
+                <label for="nombre">Calle y numero</label>
+                <div class="input-group mb-3">                    
+                <input type="text" class="form-control" placeholder="Calle" aria-label="Username" id="inputForm">
+                <input type="text" class="form-control" placeholder="Numero" aria-label="Server" id="inputForm">
+              </div>
+              </div>
             
-        <!--<article class="col-xs-12">-->
+              <div class="form-group">
+                <label for="apellido">Localidad</label>
+                <input type="text" class="form-control" id="apellido" aria-describedby="apellido" placeholder="Localidad">
+              </div>
+              <div class="form-group">
+                <label for="calle">Provincia  </label>
+                <input type="text" class="form-control" id="calle" aria-describedby="calle" placeholder="Provincia">
+              </div>
+             
+              
+          </form>
+          <form class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="formularioDeLogueo">
             
-            <form>
-                <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" aria-describedby="nombre" placeholder="Ingrese su nombre">
-                  </div>
-                  <div class="form-group">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" aria-describedby="apellido" placeholder="Apellido">
-                  </div>
-                  <div class="form-group">
-                    <label for="calle">Calle</label>
-                    <input type="text" class="form-control" id="calle" aria-describedby="calle" placeholder="Calle">
-                  </div>
-                  <div class="form-group">
-                    <label for="numero">Número</label>
-                    <input type="number" class="form-control" id="numero" aria-describedby="numero" placeholder="Número">
-                  </div>
+              <div class="form-group">
+                <label for="numero">Pais</label>
+                <input type="number" class="form-control" id="numero" aria-describedby="numero" placeholder="Número">
+              </div>
 
-                  <div class="form-group">
-                    <label for="localidad">Localidad</label>
-                    <input type="localidad" class="form-control" id="localidad" aria-describedby="localidad" placeholder="Localidad">
-                  </div>
+              <div class="form-group">
+                <label for="localidad">Superficie cubierta</label>
+                <input type="localidad" class="form-control" id="localidad" aria-describedby="localidad" placeholder="En metros cuadrados">
+              </div>
+              <div class="form-group">
+                <label for="localidad">Zona</label>
+                <input type="localidad" class="form-control" id="localidad" aria-describedby="localidad" placeholder="Zona">
+              </div>
+              <hr> 
 
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </form>
-                
-        <!--</article>-->
-       
-     </section>
+            <button type="submit" class="btn btn-success">Enviar</button>
+
+          </form>
+            
+    </article>
+   
+ </section>
 
      <footer class="container">
       <div class="main row">
