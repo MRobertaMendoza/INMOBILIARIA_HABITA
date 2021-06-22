@@ -24,9 +24,10 @@ div#barSup{
     border-radius: 6px;
 }
 #botonBuscar{
-    background-color: rgb(32, 32, 32);
-    color: beige;
+    background-color: rgb(40, 185, 230);
+
 }
+    
 section{
     min-height: 70vh;
 
