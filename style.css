@@ -47,11 +47,11 @@ article{
 footer{
     background-color: rgb(197, 189, 189);
     padding: 5px;
-    position: fixed;
     width: 100%;
     height: 40px;
     color: white;
-    bottom: 0%;
+    position: absolute;
+    bottom: 0;
 
 }
 
