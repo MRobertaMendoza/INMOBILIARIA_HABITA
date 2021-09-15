@@ -29,7 +29,7 @@ div#barSup{
 }
     
 section{
-    min-height: 70vh;
+    
 
 }
 dialog#centro{
@@ -42,7 +42,7 @@ aside{
 article{
     background-color: rgb(244, 248, 255);
     text-align: center;
-    height: 400px;
+    
 }
 footer{
     background-color: rgb(197, 189, 189);
@@ -50,7 +50,7 @@ footer{
     width: 100%;
     height: 40px;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
 }
@@ -91,4 +91,7 @@ footer{
 }
 #formularioDeLogueo{
     text-align: left;
+}
+#contract{
+    
 }
