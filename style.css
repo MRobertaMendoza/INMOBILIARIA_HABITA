@@ -1,11 +1,5 @@
-html {
-    min-height: 100%;
-    position: relative;
-  }
-body{
-    margin: 0;
-    margin-bottom: 40px;
-}
+
+
 header{
     position: relative;
     text-align: center;
@@ -17,7 +11,7 @@ header{
     width: 70px;
     border-radius: 7px;
 }
-div#barSup{
+#barSup{
     
     height: 80px;
     background-color: rgb(167, 168, 168);
@@ -27,10 +21,8 @@ div#barSup{
     background-color: rgb(40, 185, 230);
 
 }
-    
-section{
-    
-
+#botonBuscar:hover{
+    background-color: rgb(108, 108, 141);
 }
 dialog#centro{
     position:fixed;
@@ -50,7 +42,7 @@ footer{
     width: 100%;
     height: 40px;
     color: white;
-    position: fixed;
+   /* position: fixed;*/
     bottom: 0;
 
 }
@@ -95,4 +87,9 @@ footer{
 #contract{
     text-align: left;
     
+}
+.inputForm{
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
