@@ -6,6 +6,9 @@ header{
     height: 100px;
     color: rgb(255, 255, 255)
 }
+section{
+    margin-bottom: 45px;
+}
 #logo{
     height: 70px;
     width: 70px;
@@ -28,7 +31,6 @@ dialog#centro{
     position:fixed;
 }
 aside{
-    background-color: rgb(167, 168, 168);
     text-align: center;
 }
 article{
@@ -42,8 +44,9 @@ footer{
     width: 100%;
     height: 40px;
     color: white;
-   /* position: fixed;*/
+    position: fixed;
     bottom: 0;
+    margin-top: 2cm;
 
 }
 
